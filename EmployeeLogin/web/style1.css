@@ -1,0 +1,102 @@
+
+@font-face{
+	font-family: noto;
+	src: url("noto.ttf");
+    
+    font-family: abel;
+	src: url("abel.ttf");
+
+}
+
+
+
+
+
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	background: url(img.jpeg);
+	background-size: cover;
+}
+
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 50px;
+	background: rgba(0,0,0,0.8);
+	
+	box-shadow: 0 15px 25px rgba(0,0,0,.5)
+    
+
+}
+h2
+{
+	margin: auto;
+	padding: 20px;
+	color: #fff;
+	font-family: abel;
+	font-size: 50px;
+	text-align: center;
+}
+
+.box h1
+{
+	margin: auto;
+	padding: 15px;
+	color: #fff;
+	font-family: abel;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+.box .inputBox
+{
+	position: relative;
+}
+
+.box .inputBox input {
+	width:100%;
+	padding: 20px 0 10px 0;
+	font-size: 12px;
+	color: #9EA38D;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #7a7d78;
+	outline: none;
+	background: transparent;
+
+}
+
+.box .inputBox label
+{
+	position: absolute;
+	left: 0;
+	padding: 10px 0;
+	font-family: abel;
+	font-style: bold;
+	font-size: 24px;
+	color: #9EA38D;
+    pointer-events: none;
+    transition: .7s;
+}
+
+.box input[type="submit"]
+{
+	text-align: left;
+	background: transparent;
+	border: none;
+	color: #fff;
+	font-family: abel;
+	outline: none;
+	font-size: 24px;
+
+	}
+
+
+
+

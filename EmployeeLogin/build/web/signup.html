@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<body>
+    <div class="box">
+    	<h1>Sign Up</h1>
+    	<form method="post" action="signup">
+    		<div class="inputBox">
+       
+    			
+    			</script>
+                <label>User ID</label>
+                <br><br>
+    			<input type="text" name="uid">
+                <label>Password</label><br>
+    			<br><br>
+                <input id="pass" type="password" name="pass" >
+                <label>Confirm Password</label><br>
+    			<br><br>
+                <input id="con_pass" type="password" name="con_pass" onkeyup="check();">
+    			<br><br>
+    			 <script type="text/javascript">
+    			var check = function() {
+  if (document.getElementById('password').value !=
+    document.getElementById('confirm_password').value) {
+    document.getElementById('message').style.color = '#9EA38D';
+    document.getElementById('message').innerHTML = 'Not Matching';
+  } 
+}
+  </script> 
+    	
+    			<input type="submit" name="" value="Sign Up">
+                <br>
+           
+
+    		</div>
+    	</form>
+    </div>
+</body>
+</html>
